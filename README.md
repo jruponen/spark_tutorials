@@ -110,7 +110,8 @@ What were the answers to extra questions in the end of Notebook?
 This tutorial is optional simply because:
 - This is a **big data** exercise involving a large file download (200MB) and then even larger file upload (1.17GB)!
 - A fast network connection would be required in order to be able to complete this tutorial during the class session.
-- Also the exercise itself is also a bit more envolving and this time you'll work with daily raw weather data from weather stations.
+
+This exercise is a bit more envolving. You'll working with raw daily weather data from weather stations and it shows you how to work with RDD (Resilient Distributed Datasets) in Spark. You'll also learn how to use Spark SQL to make queries to the data.
 
 You may try it now, but if you find it too slow to upload the 1.17GB file during the session, complete this tutorial at later time.
 
