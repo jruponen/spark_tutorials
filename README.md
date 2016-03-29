@@ -79,16 +79,16 @@ In this tutorial, you'll learn the very basics of using Spark to analyze data wi
 	https://raw.githubusercontent.com/jruponen/spark_tutorials/master/Precipitation%20Analysis.ipynb
 
 	1. Within the Spark service, go to Analytics and press "New Notebook"
-	2. Select "From URL"
-	3. Provide the name: "Precipitation Analysis"
-	4. For Notebook URL, copy paste the URL above (for "Precipitation Analysis.ipynb" file)
-	5. Press "Create Notebook"
+	1. Select "From URL"
+	1. Provide the name: "Precipitation Analysis"
+	1. For Notebook URL, copy paste the URL above (for "Precipitation Analysis.ipynb" file)
+	1. Press "Create Notebook"
 
 	Original sample:
 	1. Within the Spark service, go to Analytics and press "New Notebook"
-	2. Select "Samples"
-	3. Select "Precipitation Analysis"
-	4. Press "Create Notebook"
+	1. Select "Samples"
+	1. Select "Precipitation Analysis"
+	1. Press "Create Notebook"
 	
 4. Follow instructions in the sample Notebook to complete the tutorial.
 	Make sure you go through each step.
