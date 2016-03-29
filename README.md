@@ -226,8 +226,8 @@ To set up your Node-RED & Cloudant environment, perform the following:
 5. Click "Node-RED Starter Community" boilerplate
 
 6. Enter the following Name & Host:
-	Name: [your initials]NodeRED	(e.g JRNodeRED)
-	Host: [your initials]NodeRED	(e.g JRNodeRED)
+	- Name: [your initials]NodeRED	(e.g JRNodeRED)
+	- Host: [your initials]NodeRED	(e.g JRNodeRED)
 
 7. Press Create
 
