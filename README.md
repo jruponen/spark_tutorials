@@ -261,9 +261,9 @@ This is a complex password created by the system. To see this password and copy 
 https://raw.githubusercontent.com/cloudant-labs/spark-cloudant/master/examples/ipython/python_Cloudant.ipynb
 
 **Note 4**: To add your Cloudant credentials on the Notebook, do the following:
-1. Go to your Bluemix Dashboard and click on your Node-RED application icon
-2. Under Cloudant icon, click "Show Credentials"
-3. To read from Cloudant database set the values of host, username, password and database name on your Notebook in the following format:
+- Go to your Bluemix Dashboard and click on your Node-RED application icon
+- Under Cloudant icon, click "Show Credentials"
+- To read from Cloudant database set the values of host, username, password and database name on your Notebook in the following format:
 
 read_db_name = "crimes"
 cloudantdata = sqlContext.read.format("com.cloudant.spark")\
@@ -272,7 +272,7 @@ cloudantdata = sqlContext.read.format("com.cloudant.spark")\
 .option("cloudant.password",'e74eed5af8ecfae41fa9bb650d6dbcf26c778bc3833647e1ceedae197f579d10')\
 .load(read_db_name)
 
-4. To write to Cloudant, set the values again as:
+- To write to Cloudant, set the values again as:
 
 write_db_name = "crimes_filtered"
 disturbDf.select("properties").write.format("com.cloudant.spark")\
