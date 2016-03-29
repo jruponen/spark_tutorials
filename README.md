@@ -309,21 +309,21 @@ To stop collection on Node-RED, just delete the wire to the Cloudant node and re
 
 ##ADDITIONAL TUTORIALS:
 
-Load Cloudant Data in Apache Spark using a Scala Notebook
+**Load Cloudant Data in Apache Spark using a Scala Notebook**
 https://developer.ibm.com/clouddataservices/docs/spark/tutorials-and-samples/load-and-filter-cloudant-data-with-spark/
 
-Sentiment Analysis of Twitter Hashtags using Spark Streaming
-Use Apache® Spark™ Streaming in combination with IBM Watson to perform sentiment analysis and track how a conversation is trending on Twitter.
+**Sentiment Analysis of Twitter Hashtags using Spark Streaming**
+Use Apache Spark Streaming in combination with IBM Watson to perform sentiment analysis and track how a conversation is trending on Twitter.
 https://developer.ibm.com/clouddataservices/sentiment-analysis-of-twitter-hashtags/
 
-Using the Machine Learning library
+**Using the Machine Learning library**
 https://developer.ibm.com/clouddataservices/docs/spark/tutorials-and-samples/use-the-machine-learning-library/
 
-Build a custom library for Apache Spark and deploy it to a Jupyter Notebook.
+**Build a custom library for Apache Spark and deploy it to a Jupyter Notebook**
 https://developer.ibm.com/clouddataservices/start-developing-with-spark-and-notebooks/
 
 ##SELF-PACED LEARNING OF SPARK FUNDAMENTALS:
-http://bigdatauniversity.com
-Complete courses: Spark Fundamentals I and II
-
+Access courses at: http://bigdatauniversity.com
+Complete courses "Spark Fundamentals I" and "Spark Fundamentals II".
+Additionally, see other courses directed for Data Scientists.
 
