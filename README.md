@@ -133,6 +133,10 @@ ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/2015.csv.gz
 After extracted 2015.csv (file size 1.17GB), you can add the required header on Mac or Linux using the command line:
 $ echo 'STATION,DATE,METRIC,VALUE,C5,C6,C7,C8' | cat - 2015.csv > temp && mv temp 2015.csv
 
+**Extra challenge**
+What was the answer to extra question in the end of Notebook:
+For the top 10 station with the most snow days, what is the average minimum temperature during recorded snowfall?
+
 
 ##TUTORIAL 3: Analyze NYC taxi data
 
