@@ -323,7 +323,7 @@ https://developer.ibm.com/clouddataservices/docs/spark/tutorials-and-samples/use
 https://developer.ibm.com/clouddataservices/start-developing-with-spark-and-notebooks/
 
 ##SELF-PACED LEARNING OF SPARK FUNDAMENTALS:
-Access courses at: http://bigdatauniversity.com
+Access courses at: http://bigdatauniversity.com.
 Complete courses "Spark Fundamentals I" and "Spark Fundamentals II".
 Additionally, see other courses directed for Data Scientists.
 
