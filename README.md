@@ -42,7 +42,7 @@ This is the storage in bluemix where you can store uploaded data files, analysis
 
 7. Press "Add Object Storage"
 
-Note: Only one Object Storage is allowed per your Bluemix organization. If you had one created already (or if you are adding another instance of Spark), you may re-use your existing Object Storage by going to "Bluemix" tab and selecting an existing one.
+**Note:** Only one Object Storage is allowed per your Bluemix organization. If you had one created already (or if you are adding another instance of Spark), you may re-use your existing Object Storage by going to "Bluemix" tab and selecting an existing one.
 
 8. Fill in the following values:
 	Name:		[your initials] Apache Spark objectstore  (e.g "JR Apache Spark objectstore")
@@ -54,7 +54,7 @@ Note: Only one Object Storage is allowed per your Bluemix organization. If you h
 
 Now that you have Apache Spark service up and running, associated with an Object Storage, you may continue to tutorials.
 
-##TUTORIAL 1: "Getting Started on Notebooks with Precipitation Analysis"
+##TUTORIAL 1: Getting Started on Notebooks with Precipitation Analysis
 
 In this tutorial, you'll learn the very basics of using Spark to analyze data with Jupyter Notebooks, using iPython language.
 ("Scala" is another language option with Spark that you can learn in other tutorials later on).
@@ -97,15 +97,15 @@ In this tutorial, you'll learn the very basics of using Spark to analyze data wi
 
 As you may have noticed, there is really no option to "close" your Notebook. You may navigate away from your Notebook and come back later. Your analysis just continues to run on Spark kernel until you stop it. In order to stop your Notebook from running, you can either go to "Analytics" page, find your Notebook, click on it's "Actions" and select "Stop Kernel". You may also do this with the Notebook open by selecting from top menu "Kernel" and "Interrupt".
 
-Extra challenge
-What are the answers to extra questions in the end of Notebook?
+**Extra challenge**
+What were the answers to extra questions in the end of Notebook?
 - Which country has the most steep positive trend in precipitation?
 - Which were the top 5 countries with most steep positive trends in their precipitation?
 
-##TUTORIAL 2 (optional): "Analytics Notebooks and Apache Spark"
+##TUTORIAL 2 (optional): Analytics Notebooks and Apache Spark
 
 This tutorial is optional simply because:
-- It is a big data exercise involving a large file download (200MB) and then even larger file upload (1.17GB)!
+- This is a **big data** exercise involving a large file download (200MB) and then even larger file upload (1.17GB)!
 - A fast network connection would be required in order to be able to complete this tutorial during the class session.
 - Also the exercise itself is also a bit more envolving and this time you'll work with daily raw weather data from weather stations.
 
@@ -154,7 +154,7 @@ https://raw.githubusercontent.com/jruponen/spark_tutorials/master/NYC%20taxidata
 	Make sure you go through each step.
 
 
-Extra challenge:
+**Extra challenge:**
 In the end of the Notebook you were asked what other insight could you derive from the data.
 Did you find any?
 
@@ -300,7 +300,7 @@ This is instructed in Scala tutorial here: https://developer.ibm.com/clouddatase
 And also in the "Data Integration" tutorial shown earlier.
 
 After collected some tweets, see what kind of analysis you can perform with them.
-Important: Remember to stop collecting the tweets after a while or your database may fill up fast.
+**Important:** Remember to stop collecting the tweets after a while or your database may fill up fast.
 To stop collection on Node-RED, just delete the wire to the Cloudant node and re-deploy the flow.
 
 
