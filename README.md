@@ -207,6 +207,7 @@ This is a fairly quick setup but extremely valuable to you for collecting and pr
 In short, here you'll set up yourself a Node-RED application for handling data streams and a Cloudant noSQL data store.
 
 Background information:
+
 Node-RED is open source (http://nodered.org) and has become very popular in creating and processing data streams, either with simple JavaScript knowledge or even with no coding at all! Node-RED can be extended with number of freely available nodes and you may also develop new ones by yourself. In Bluemix you may also leverage number of other capabilities like trying out some IBM Watson API's with Node-RED that will help you build more advanced analytic and cognitive solutions, or you may want to test out Internet-of-Things (IoT) capabilities in Bluemix to read data from machines and sensors.
 
 https://developer.ibm.com/clouddataservices/docs/spark/tutorials-and-samples/
