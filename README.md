@@ -1,4 +1,5 @@
-These instructions and some of the tutorial files needed are provided at: https://github.com/jruponen/spark_tutorials
+These instructions and some of the tutorial files needed are provided at: https://github.com/jruponen/spark_tutorials.
+
 General Spark tutorials are found at: https://developer.ibm.com/clouddataservices/docs/spark/tutorials-and-samples/
 
 
