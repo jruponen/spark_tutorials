@@ -1,4 +1,5 @@
 These instructions and some of the tutorial files needed are provided at: https://github.com/jruponen/spark_tutorials
+General Spark tutorials are found at: https://developer.ibm.com/clouddataservices/docs/spark/tutorials-and-samples/
 
 
 ##STEP 1: Create your Apache Spark service in Bluemix
@@ -210,7 +211,6 @@ Background information:
 
 Node-RED is open source (http://nodered.org) and has become very popular in creating and processing data streams, either with simple JavaScript knowledge or even with no coding at all! Node-RED can be extended with number of freely available nodes and you may also develop new ones by yourself. In Bluemix you may also leverage number of other capabilities like trying out some IBM Watson API's with Node-RED that will help you build more advanced analytic and cognitive solutions, or you may want to test out Internet-of-Things (IoT) capabilities in Bluemix to read data from machines and sensors.
 
-https://developer.ibm.com/clouddataservices/docs/spark/tutorials-and-samples/
 
 To set up your Node-RED & Cloudant environment, perform the following:
 
