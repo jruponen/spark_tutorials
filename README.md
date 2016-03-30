@@ -1,4 +1,4 @@
-These instructions and some of the tutorial files needed are provided at: https://github.com/jruponen/spark_tutorials.
+These instructions and some files needed in the tutorials are provided at: https://github.com/jruponen/spark_tutorials.
 
 General Spark tutorials are found at: https://developer.ibm.com/clouddataservices/docs/spark/tutorials-and-samples/
 
@@ -142,9 +142,10 @@ For the top 10 station with the most snow days, what is the average minimum temp
 ##TUTORIAL 3: Analyze NYC taxi data
 
 This is relatively simple analysis but it shows you how to get data for analysis directly from an external site via REST API call.
+**Update on 2016-03-30:** In addition, there are few optional steps that show how you can export data from your Notebook, to be used somewhere else.
 
 The sample Notebook is available at:
-https://raw.githubusercontent.com/jruponen/spark_tutorials/master/NYC%20taxidata%20example.ipynb
+https://raw.githubusercontent.com/jruponen/spark_tutorials/master/NYC%20taxidata%20example%20with%20data%20export%20options.ipynb
 
 1. Click "Analytics" on the navigation bar
 
