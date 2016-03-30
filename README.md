@@ -142,7 +142,7 @@ For the top 10 station with the most snow days, what is the average minimum temp
 ##TUTORIAL 3: Analyze NYC taxi data
 
 This is relatively simple analysis but it shows you how to get data for analysis directly from an external site via REST API call.
-**Update on 2016-03-30:** In addition, there are few optional steps that show how you can export data from your Notebook, to be used somewhere else.
+**Update on 2016-03-30:** In addition, there are now few optional steps that show you how to export data from your Notebook, to be used somewhere else.
 
 The sample Notebook is available at:
 https://raw.githubusercontent.com/jruponen/spark_tutorials/master/NYC%20taxidata%20example%20with%20data%20export%20options.ipynb
