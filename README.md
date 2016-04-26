@@ -103,7 +103,7 @@ In this tutorial, you'll learn the very basics of using Spark to analyze data wi
 As you may have noticed, there is really no option to "close" your Notebook. You may navigate away from your Notebook and come back later. Your analysis just continues to run on Spark kernel until you stop it. In order to stop your Notebook from running, you can either go to "Analytics" page, find your Notebook, click on it's "Actions" and select "Stop Kernel". You may also do this with the Notebook open by selecting from top menu "Kernel" and "Interrupt".
 
 **Extra challenge**  
-What were the answers to extra questions in the end of Notebook?
+What were the answers to extra questions in the end of Notebook:
   * Which country has the most steep positive trend in precipitation?
   * Which were the top 5 countries with most steep positive trends in their precipitation?
 
@@ -145,7 +145,7 @@ What was the answer to extra question in the end of Notebook:
 
 ##TUTORIAL 3: Analyze NYC taxi data
 
-This is relatively simple analysis but it shows you how to get data for analysis directly from an external site via REST API call.
+This is relatively simple analysis but it shows you how to get data for analysis directly from an external site via REST API call.  
 **Update on 2016-03-30:** In addition, there are now few optional steps that show you how to export data from your Notebook, to be used somewhere else.
 
 The sample Notebook is available at:
@@ -195,7 +195,7 @@ Although containing all collision data from 2012 the data set to dowload & uploa
 
 This tutorial is optional and for your reference only since it does not perform any analysis on data.
 It shows you how you can load data on your Notebook from either Object Storage, Cloudant or dashDB, using either Python or PySpark. Use it as your reference when you have self-collected data into one of these stores and will need to load it on your Notebook.
-It is especially useful when working with Node-RED, Cloudant and dashDB (see the next tutorial).
+It is especially useful when working with Node-RED - Cloudant - dashDB - Spark combination (see the next tutorial).
 
 To access this sample Notebook, perform the following
 
