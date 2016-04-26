@@ -347,7 +347,7 @@ Extract to directory of your choice, e.g:
 ```
 ./Spark/spark-1.6.1-bin-hadoop2.6
 ```
-3 Optional: Export JAVA_HOME  
+3. Optional: Export JAVA_HOME  
 On Mac OS X:
 ```
 $ export JAVA_HOME=$(/usr/libexec/java_home) 
