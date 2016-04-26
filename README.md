@@ -337,7 +337,7 @@ Access courses at: http://bigdatauniversity.com.
 Complete courses "Spark Fundamentals I" and "Spark Fundamentals II".
 Additionally, see other courses directed for Data Scientists (http://bigdatauniversity.com/learn/data-science/).
 
-### Quick instructions to setup Spark standalone on your own machine ###  
+### Quick instructions to setup Spark standalone on your own machine
 Note: **Spark standalone** is a good option to run Spark for testing and learning purposes. It is not to be used for production purposes.
 
 1. Download Spark  
