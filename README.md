@@ -49,7 +49,7 @@ Object Storage is an OpenStack Swift based repository in bluemix where you can s
 **Note:** Only one Object Storage is allowed per your Bluemix organization. If you had one created already (or if you are adding another instance of Spark), you may re-use your existing Object Storage by going to "Bluemix" tab and selecting an existing one.
 
 8. Fill in the following values:
-  * Name:		[your initials] Apache Spark objectstore  (e.g "JR Apache Spark objectstore")
+  * Name:		Service name  (e.g "JR Apache Spark objectstore")
   * Space:		dev (or whatever your space is named as)
   * Plan:		Free
   * Container name:	notebooks
@@ -134,7 +134,7 @@ Here's a direct link to the file you are supposed to download for daily weather 
 ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/2015.csv.gz
 
 After extracted 2015.csv (file size 1.17GB), you can add the required header on Mac or Linux using the command line:
-$ echo 'STATION,DATE,METRIC,VALUE,C5,C6,C7,C8' | cat - 2015.csv > temp && mv temp 2015.csv
+'''$ echo 'STATION,DATE,METRIC,VALUE,C5,C6,C7,C8' | cat - 2015.csv > temp && mv temp 2015.csv'''
 
 **Extra challenge**
 What was the answer to extra question in the end of Notebook:
