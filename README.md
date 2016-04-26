@@ -18,11 +18,11 @@ General Spark tutorials are found at: https://developer.ibm.com/clouddataservice
 
 Once you have this step done, Apache Spark introduction page will open for you.
 Notice on the page:
-	- Work with Notebooks and Spark (Notebooks button will take you Spark service interface) 
-	* Run Spark Applications
-	* Monitor Spark Usage
-	* Learn (link to Spark service documentation in Bluemix)
-	* Discover (link to Learning Center for tutorials, samples etc)
+  * Work with Notebooks and Spark (Notebooks button will take you Spark service interface) 
+  * Run Spark Applications
+  * Monitor Spark Usage
+  * Learn (link to Spark service documentation in Bluemix)
+  * Discover (link to Learning Center for tutorials, samples etc)
 
 ##STEP 2: Set up an Object Storage for your Spark instance
 
