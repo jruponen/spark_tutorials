@@ -347,7 +347,7 @@ Extract to directory of your choice, e.g:
 ```
 ./Spark/spark-1.6.1-bin-hadoop2.6
 ```
-3. Optional: Export JAVA_HOME  
+3. Optional: Export JAVA_HOME
 On Mac OS X:
 ```
 $ export JAVA_HOME=$(/usr/libexec/java_home) 
@@ -361,11 +361,11 @@ $ ./sbin/start-master.sh
 In browser, open: http://localhost:8080(http://localhost:8080)  
 Copy paste Spark URL address:	spark://localhost:7077
 
-6. Start worker(s)
+6. Start Spark Worker(s)
 ```
 $ ./bin/spark-class org.apache.spark.deploy.worker.Worker spark://localhost:7077
 ```
-7. Verify Spark worker
+7. Verify Spark Worker
 In browser, open (or refresh): http://localhost:8080(http://localhost:8080)  
 Should now see one worker attached to the master.
 8. Try interactive Scala shell
