@@ -17,22 +17,24 @@ General Spark tutorials are found at: https://developer.ibm.com/clouddataservice
 5. Press Create
 
 Once you have this step done, Apache Spark introduction page will open for you.
-Notice the following on page:
-- Learning center (link to tutorials, samples etc)
-- Interative Notebooks (inside Spark, you'll create and use these for analysis)
-- Spark Documentation (takes you to documentation of Spark in Bluemix)
+Notice on the page:
+- Work with Notebooks and Spark (Notebooks button will take you Spark service interface) 
+- Run Spark Applications
+- Monitor Spark Usage
+- Learn (link to Spark service documentation in Bluemix)
+- Discover (link to Learning Center for tutorials, samples etc)
 
 ##STEP 2: Set up an Object Storage for your Spark instance
 
-This is the storage in bluemix where you can store uploaded data files, analysis notebooks etc.
+Object Storage is an OpenStack Swift based repository in bluemix where you can store uploaded data files, analysis notebooks etc.
 
-1. On the Spark introduction page, press Open
+1. On the Spark introduction page, press Notebooks
 
-2. Notice the navigation bar (tabs) on the left
-	Services: List of your other Bluemix services that you may use with Spark to read and write data
-	Data: Connections providing links to your existing data sources
-	Analytics: Your stored Spark Notebooks and instances of Spark you have set up
-	Exchange: Shared Notebooks that you may want to re-use
+2. Notice the navigation bar (tabs) on the left:
+- Services: List of your other Bluemix services that you may use with Spark to read and write data
+- Data: Connections providing links to your existing data sources
+- Analytics: Your stored Spark Notebooks and instances of Spark you have set up
+- Exchange: Shared Notebooks that you may want to re-use
 
 3. Click "Analytics" on the left
 
@@ -47,10 +49,10 @@ This is the storage in bluemix where you can store uploaded data files, analysis
 **Note:** Only one Object Storage is allowed per your Bluemix organization. If you had one created already (or if you are adding another instance of Spark), you may re-use your existing Object Storage by going to "Bluemix" tab and selecting an existing one.
 
 8. Fill in the following values:
-	Name:		[your initials] Apache Spark objectstore  (e.g "JR Apache Spark objectstore")
-	Space:		dev (or whatever your space is named as)
-	Plan:		Free
-	Container name:	notebooks
+- Name:		[your initials] Apache Spark objectstore  (e.g "JR Apache Spark objectstore")
+- Space:		dev (or whatever your space is named as)
+- Plan:		Free
+- Container name:	notebooks
 
 9. Press "Create"
 
