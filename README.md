@@ -272,14 +272,14 @@ https://raw.githubusercontent.com/cloudant-labs/spark-cloudant/master/examples/i
   * Go to your Bluemix Dashboard and click on your Node-RED application icon
   * Under Cloudant icon, click "Show Credentials"
   * To read from Cloudant database set the values of host, username, password and database name on your Notebook in the following format:
-
+```
 read_db_name = "crimes"
 cloudantdata = sqlContext.read.format("com.cloudant.spark")\
 .option("cloudant.host",'aa1e8db0-7b86-415c-81eb-41615ab4119c-bluemix.cloudant.com')\
 .option("cloudant.username",'aa1e8db0-7b86-415c-81eb-41615ab4119c-bluemix')\
 .option("cloudant.password",'e74eed5af8ecfae41fa9bb650d6dbcf26c778bc3833647e1ceedae197f579d10')\
 .load(read_db_name)
-
+```
   * To write to Cloudant, set the values again as:
 
 write_db_name = "crimes_filtered"
