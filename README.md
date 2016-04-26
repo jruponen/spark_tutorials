@@ -367,19 +367,11 @@ In browser, open (or refresh): http://localhost:8080(http://localhost:8080)
 Should now see one worker attached to the master.
 
 8. Try interactive Scala shell  
-```
-$ ./bin/spark-shell --master spark://localhost:7077
-```
-or
-```
+$ ./bin/spark-shell --master spark://localhost:7077  
+or  
 $ ./bin/spark-shell --master local[2]
-```
 
 9. Try interactive Python shell  
-```
-$ ./bin/pyspark --master spark://localhost:7077
-```
-or
-```
+$ ./bin/pyspark --master spark://localhost:7077  
+or  
 $ ./bin/pyspark --master local[2]
-```
