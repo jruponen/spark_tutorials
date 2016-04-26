@@ -138,7 +138,7 @@ After extracted 2015.csv (file size 1.17GB), you can add the required header on 
 $ echo 'STATION,DATE,METRIC,VALUE,C5,C6,C7,C8' | cat - 2015.csv > temp && mv temp 2015.csv
 ```
 
-Instructions how to upload large files (above 200MB) to the Object Storage:
+Instructions how to upload large files (above 200MB) to the Object Storage:  
 https://github.com/jruponen/spark_tutorials/blob/master/Swift%20client%20instructions.md
 
 **Extra challenge**  
