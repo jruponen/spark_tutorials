@@ -49,10 +49,10 @@ Object Storage is an OpenStack Swift based repository in bluemix where you can s
 **Note:** Only one Object Storage is allowed per your Bluemix organization. If you had one created already (or if you are adding another instance of Spark), you may re-use your existing Object Storage by going to "Bluemix" tab and selecting an existing one.
 
 8. Fill in the following values:
-  Name:		[your initials] Apache Spark objectstore  (e.g "JR Apache Spark objectstore")
-  Space:		dev (or whatever your space is named as)
-  Plan:		Free
-  Container name:	notebooks
+  * Name:		[your initials] Apache Spark objectstore  (e.g "JR Apache Spark objectstore")
+  * Space:		dev (or whatever your space is named as)
+  * Plan:		Free
+  * Container name:	notebooks
 
 9. Press "Create"
 
