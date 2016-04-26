@@ -10,11 +10,11 @@ To upload larger files, you can use either
 ###ALTERNATIVE 1: SWIFT CLIENT
 On below are simple instructions how to set up and use the Swift client.
 
-1: Install Swift client on the computer you'll need to upload large files from  
+**1: Install Swift client on the computer you'll need to upload large files from**  
 Instructions for all operating systems:
 https://swiftstack.com/docs/integration/python-swiftclient.html
 
-2: Create a script to initialize environment variables with your Swift credentials  
+**2: Create a script to initialize environment variables with your Swift credentials**  
 Swift client can read the necessary authentication information from environment variables.
 It is easiest to use a shell script (Mac/Linux) or batch file (Windows) to set these environment variables when needed.
 Just copy/paste the Mac/Linux shell script example from below and modify to your needs:
@@ -66,7 +66,7 @@ Remember to change file permissions to allow execution:
 $ chmod 755 ./bluemix_swift.sh
 ```
 
-3: Use Swift client  
+**3: Use Swift client**  
 Use this command first to initialize environment variables for the Swift client:
 ```
 $ source bluemix_swift.sh
@@ -93,14 +93,15 @@ $ swift upload notebooks <filename>
 
 ###ALTERNATIVE 2: CYBERDUCK
 
-Cyberduck is a file transfer client for Mac OS X and Windows that supports many protocols and methods, including SFTP, SCP, WebDav, S3, Swift etc.
+Cyberduck is a file transfer client for Mac OS X and Windows that supports many protocols and methods, including SFTP, SCP, WebDav, S3, Swift etc.  
+The following instructions are for Mac OS X. 
 
-1: Install Cyberduck  
-(https://cyberduck.io)
+**1: Install Cyberduck**  
+https://cyberduck.io
 
 If you have Cyberduck installed already, make sure it's updated to the latest version.
 
-2: Download & open Swift Keystone 3.0 profile on Cyberduck  
+**2: Download & open Swift Keystone 3.0 profile on Cyberduck**  
 
 Bluemix Swift uses Keystone v3 authentication tokens but out of the box support in Cyberduck is for Keystone v1.
 
@@ -109,7 +110,7 @@ Therefore, you'll need to download the following Cyberduck Keystone v3 profile a
 
 If interested, more information here: (https://trac.cyberduck.io/wiki/help/en/howto/openstack)
 
-3: Connectivity parameters  
+**3: Connectivity parameters**  
 
 If not displayed already, press "Open Connection" in Cyberduck and select "Openstack Swift (Keystone 3)".
 Here's the connection values you'll need to fill in:
@@ -127,6 +128,6 @@ Additional login credentials:
 Project domain name:	<domain_name>
  example:					791473
 ```
-Hint: Use "Insert to code" from Data Source panel on your Spark Notebook to find out your Swift object store credentials.
+**Hint:** Use "Insert to code" from Data Source panel on your Spark Notebook to find out your Swift object store credentials.
 
 
