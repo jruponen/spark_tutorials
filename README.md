@@ -342,40 +342,32 @@ Note: **Spark standalone** is a good option to run Spark for testing and learnin
 
 1. Download Spark
 (http://spark.apache.org/downloads.html)
-
 2. Extract
 Extract to directory of your choice, e.g:  
 ```
 ./Spark/spark-1.6.1-bin-hadoop2.6
 ```
-
-3 Optional: Export JAVA_HOME
+3 Optional: Export JAVA_HOME  
 On Mac OS X:
 ```
 $ export JAVA_HOME=$(/usr/libexec/java_home) 
 ```
-
-4. Start master
+4. Start Spark Master
 ```
 $ cd /Spark/spark-1.6.1-bin-hadoop2.6
 $ ./sbin/start-master.sh
 ```
-
-5. Verify Spark master
-In browser, open: (http://localhost:8080)
-
+5. Verify Spark Master
+In browser, open: http://localhost:8080(http://localhost:8080)  
 Copy paste Spark URL address:	spark://localhost:7077
 
 6. Start worker(s)
 ```
 $ ./bin/spark-class org.apache.spark.deploy.worker.Worker spark://localhost:7077
 ```
-
 7. Verify Spark worker
-In browser, open (or refresh): (http://localhost:8080)
-
+In browser, open (or refresh): http://localhost:8080(http://localhost:8080)  
 Should now see one worker attached to the master.
-
 8. Try interactive Scala shell
 ```
 $ ./bin/spark-shell --master spark://localhost:7077
@@ -384,7 +376,6 @@ or
 ```
 $ ./bin/spark-shell --master local[2]
 ```
-
 9. Try interactive Python shell
 ```
 $ ./bin/pyspark --master spark://localhost:7077
@@ -393,4 +384,3 @@ or
 ```
 $ ./bin/pyspark --master local[2]
 ```
-
