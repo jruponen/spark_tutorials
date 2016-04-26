@@ -11,8 +11,8 @@ General Spark tutorials are found at: https://developer.ibm.com/clouddataservice
 
 3. Find "Apache Spark" service and click on it
 
-4. For the Service name, enter the following:
-	Service name: [your initials] Apache Spark  (e.g JR Apache Spark)
+4. Fill in the Service name
+  * Service name: Any service name  (e.g "JR Apache Spark")
 
 5. Press Create
 
@@ -49,7 +49,7 @@ Object Storage is an OpenStack Swift based repository in bluemix where you can s
 **Note:** Only one Object Storage is allowed per your Bluemix organization. If you had one created already (or if you are adding another instance of Spark), you may re-use your existing Object Storage by going to "Bluemix" tab and selecting an existing one.
 
 8. Fill in the following values:
-  * Name:		Service name  (e.g "JR Apache Spark objectstore")
+  * Name:		Any service name  (e.g "JR ObjectStore")
   * Space:		dev (or whatever your space is named as)
   * Plan:		Free
   * Container name:	notebooks
