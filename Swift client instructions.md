@@ -112,7 +112,7 @@ If interested, more information here: https://trac.cyberduck.io/wiki/help/en/how
 
 **3: Connectivity parameters**  
 
-If not displayed already, press "Open Connection" in Cyberduck and select "Openstack Swift (Keystone 3)".
+If not displayed already, press **Open Connection** in Cyberduck and select **"Openstack Swift (Keystone 3)"**.  
 Here's the connection values you'll need to fill in:
 ```
 Server:		identity.open.softlayer.com
