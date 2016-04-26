@@ -102,7 +102,7 @@ In this tutorial, you'll learn the very basics of using Spark to analyze data wi
 
 As you may have noticed, there is really no option to "close" your Notebook. You may navigate away from your Notebook and come back later. Your analysis just continues to run on Spark kernel until you stop it. In order to stop your Notebook from running, you can either go to "Analytics" page, find your Notebook, click on it's "Actions" and select "Stop Kernel". You may also do this with the Notebook open by selecting from top menu "Kernel" and "Interrupt".
 
-**Extra challenge**
+**Extra challenge**  
 What were the answers to extra questions in the end of Notebook?
   * Which country has the most steep positive trend in precipitation?
   * Which were the top 5 countries with most steep positive trends in their precipitation?
@@ -138,9 +138,9 @@ After extracted 2015.csv (file size 1.17GB), you can add the required header on 
 $ echo 'STATION,DATE,METRIC,VALUE,C5,C6,C7,C8' | cat - 2015.csv > temp && mv temp 2015.csv
 ```
 
-**Extra challenge**
+**Extra challenge**  
 What was the answer to extra question in the end of Notebook:
-For the top 10 station with the most snow days, what is the average minimum temperature during recorded snowfall?
+  * For the top 10 station with the most snow days, what is the average minimum temperature during recorded snowfall?
 
 
 ##TUTORIAL 3: Analyze NYC taxi data
