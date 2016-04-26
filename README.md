@@ -31,10 +31,10 @@ Object Storage is an OpenStack Swift based repository in bluemix where you can s
 1. On the Spark introduction page, press Notebooks
 
 2. Notice the navigation bar (tabs) on the left:
-- Services: List of your other Bluemix services that you may use with Spark to read and write data
-- Data: Connections providing links to your existing data sources
-- Analytics: Your stored Spark Notebooks and instances of Spark you have set up
-- Exchange: Shared Notebooks that you may want to re-use
+  * Services: List of your other Bluemix services that you may use with Spark to read and write data
+  * Data: Connections providing links to your existing data sources
+  * Analytics: Your stored Spark Notebooks and instances of Spark you have set up
+  * Exchange: Shared Notebooks that you may want to re-use
 
 3. Click "Analytics" on the left
 
@@ -49,10 +49,10 @@ Object Storage is an OpenStack Swift based repository in bluemix where you can s
 **Note:** Only one Object Storage is allowed per your Bluemix organization. If you had one created already (or if you are adding another instance of Spark), you may re-use your existing Object Storage by going to "Bluemix" tab and selecting an existing one.
 
 8. Fill in the following values:
-- Name:		[your initials] Apache Spark objectstore  (e.g "JR Apache Spark objectstore")
-- Space:		dev (or whatever your space is named as)
-- Plan:		Free
-- Container name:	notebooks
+  Name:		[your initials] Apache Spark objectstore  (e.g "JR Apache Spark objectstore")
+  Space:		dev (or whatever your space is named as)
+  Plan:		Free
+  Container name:	notebooks
 
 9. Press "Create"
 
@@ -67,10 +67,10 @@ In this tutorial, you'll learn the very basics of using Spark to analyze data wi
 
 2. Click "New Notebook" button
 	Notice, that there are three ways you can create new analysis notebooks:
-	- Blank (start with a blank one)
-	- From File (upload an existing Notebook file from your computer)
-	- From URL (upload an existing Notebook file from network)
-	- Start from a Sample template
+  * Blank (start with a blank one)
+  * From File (upload an existing Notebook file from your computer)
+  * From URL (upload an existing Notebook file from network)
+  * Start from a Sample template
 
 3. Let's create your first tutorial Notebook from a sample
 
@@ -82,18 +82,18 @@ In this tutorial, you'll learn the very basics of using Spark to analyze data wi
 	Custom sample:
 	https://raw.githubusercontent.com/jruponen/spark_tutorials/master/Precipitation%20Analysis.ipynb
 
-	- Within the Spark service, go to Analytics and press "New Notebook"
-	- Select "From URL"
-	- Provide the name: "Precipitation Analysis"
-	- For Notebook URL, copy paste the URL above (for "Precipitation Analysis.ipynb" file)
-	- Press "Create Notebook"
+  * Within the Spark service, go to Analytics and press "New Notebook"
+  * Select "From URL"
+  * Provide the name: "Precipitation Analysis"
+  * For Notebook URL, copy paste the URL above (for "Precipitation Analysis.ipynb" file)
+  * Press "Create Notebook"
 
 	Original sample:
 
-	- Within the Spark service, go to Analytics and press "New Notebook"
-	- Select "Samples"
-	- Select "Precipitation Analysis"
-	- Press "Create Notebook"
+  * Within the Spark service, go to Analytics and press "New Notebook"
+  * Select "Samples"
+  * Select "Precipitation Analysis"
+  * Press "Create Notebook"
 	
 4. Follow instructions in the sample Notebook to complete the tutorial.
 	Make sure you go through each step.
@@ -104,14 +104,14 @@ As you may have noticed, there is really no option to "close" your Notebook. You
 
 **Extra challenge**
 What were the answers to extra questions in the end of Notebook?
-- Which country has the most steep positive trend in precipitation?
-- Which were the top 5 countries with most steep positive trends in their precipitation?
+  * Which country has the most steep positive trend in precipitation?
+  * Which were the top 5 countries with most steep positive trends in their precipitation?
 
 ##TUTORIAL 2 (optional): Analytics Notebooks and Apache Spark
 
 This tutorial is optional simply because:
-- This is a **big data** exercise involving a large file download (200MB) and then even larger file upload (1.17GB)!
-- A fast network connection would be required in order to be able to complete this tutorial during the class session.
+  * This is a **big data** exercise involving a large file download (200MB) and then even larger file upload (1.17GB)!
+  * A fast network connection would be required in order to be able to complete this tutorial during the class session.
 
 This exercise is a bit more envolving. You'll working with raw daily weather data from weather stations and it shows you how to work with RDD (Resilient Distributed Datasets) in Spark. You'll also learn how to use Spark SQL to make queries to the data.
 
@@ -259,8 +259,8 @@ https://developer.ibm.com/clouddataservices/docs/spark/tutorials-and-samples/use
 Follow the Procedures 1 & 2, observing the additional notes on below:
 
 **Note 1**: In procedure 1, step 1, you are supposed to do the following:
-- Click on the Cloudant service icon from your Node-RED application dashboard in Bluemix
-- Press "Launch" (Cloudant user interface will then open)
+  * Click on the Cloudant service icon from your Node-RED application dashboard in Bluemix
+  * Press "Launch" (Cloudant user interface will then open)
 
 **Note 2**: In procedure 1, step 5, you are asked for your Cloudant password.
 This is a complex password created by the system. To see this password and copy it to clipboard, press "Show Credentials" on your Cloudant service icon on the Node-RED application dashboard. Once the replication event has been submitted, it will take just few moments to create your local replicate. Go to "Databases" tab and verify that you now have "crimes" database with 272 docs in it.
@@ -269,9 +269,9 @@ This is a complex password created by the system. To see this password and copy 
 https://raw.githubusercontent.com/cloudant-labs/spark-cloudant/master/examples/ipython/python_Cloudant.ipynb
 
 **Note 4**: To add your Cloudant credentials on the Notebook, do the following:
-- Go to your Bluemix Dashboard and click on your Node-RED application icon
-- Under Cloudant icon, click "Show Credentials"
-- To read from Cloudant database set the values of host, username, password and database name on your Notebook in the following format:
+  * Go to your Bluemix Dashboard and click on your Node-RED application icon
+  * Under Cloudant icon, click "Show Credentials"
+  * To read from Cloudant database set the values of host, username, password and database name on your Notebook in the following format:
 
 read_db_name = "crimes"
 cloudantdata = sqlContext.read.format("com.cloudant.spark")\
@@ -280,7 +280,7 @@ cloudantdata = sqlContext.read.format("com.cloudant.spark")\
 .option("cloudant.password",'e74eed5af8ecfae41fa9bb650d6dbcf26c778bc3833647e1ceedae197f579d10')\
 .load(read_db_name)
 
-- To write to Cloudant, set the values again as:
+  * To write to Cloudant, set the values again as:
 
 write_db_name = "crimes_filtered"
 disturbDf.select("properties").write.format("com.cloudant.spark")\
