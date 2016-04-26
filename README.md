@@ -133,8 +133,10 @@ You may try it now, but if you find it too slow to upload the 1.17GB file during
 Here's a direct link to the file you are supposed to download for daily weather data in 2015 (file size approx 200MB):
 ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/2015.csv.gz
 
-After extracted 2015.csv (file size 1.17GB), you can add the required header on Mac or Linux using the command line:  
+After extracted 2015.csv (file size 1.17GB), you can add the required header on Mac or Linux using the command line:
+```
 $ echo 'STATION,DATE,METRIC,VALUE,C5,C6,C7,C8' | cat - 2015.csv > temp && mv temp 2015.csv
+```
 
 **Extra challenge**
 What was the answer to extra question in the end of Notebook:
@@ -281,14 +283,14 @@ cloudantdata = sqlContext.read.format("com.cloudant.spark")\
 .load(read_db_name)
 ```
   * To write to Cloudant, set the values again as:
-
+```
 write_db_name = "crimes_filtered"
 disturbDf.select("properties").write.format("com.cloudant.spark")\
 .option("cloudant.host","kache.cloudant.com")\
 .option("cloudant.username","kache")\
 .option("cloudant.password","xxxxx")\
 .save("write_db_name")
-
+```
 
 ##TUTORIAL 8: Collect tweets into Cloudant data store
 
