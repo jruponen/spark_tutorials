@@ -66,13 +66,13 @@ Remember to change file permissions to allow execution:
 $ chmod 755 ./bluemix_swift.sh
 ```
 
-**3: Use Swift client**  
-Use this command first to initialize environment variables for the Swift client:
+**3: Using Swift client**  
+Use the script above first to initialize environment variables for the Swift client:
 ```
 $ source bluemix_swift.sh
 ```
 
-Use this command to show contents of your Object Store root folder
+Now you can use this command to show contents of your Object Store root folder
 ```
 $ swift list
 notebooks
@@ -106,9 +106,9 @@ If you have Cyberduck installed already, make sure it's updated to the latest ve
 Bluemix Swift uses Keystone v3 authentication tokens but out of the box support in Cyberduck is for Keystone v1.
 
 Therefore, you'll need to download the following Cyberduck Keystone v3 profile and open it in Cyberduck:
-(https://svn.cyberduck.ch/trunk/profiles/Openstack%20Swift%20(Keystone%203).cyberduckprofile)
+https://svn.cyberduck.ch/trunk/profiles/Openstack%20Swift%20(Keystone%203).cyberduckprofile
 
-If interested, more information here: (https://trac.cyberduck.io/wiki/help/en/howto/openstack)
+If interested, more information here: https://trac.cyberduck.io/wiki/help/en/howto/openstack
 
 **3: Connectivity parameters**  
 
@@ -118,9 +118,9 @@ Here's the connection values you'll need to fill in:
 Server:		identity.open.softlayer.com
 Port:			443
 Username:	<project>:<username>
- example:	object_storage_317aecff:user_c2eba4f4ce7406226c4d5da9b9a7e49f20eef7a1
+ example:	object_storage_317aecfe:user_c2eba4f4ce7406226c4d5da9b9a7e49f20eef7a1
 Password:	<password>
- example:	PLA-[=w5pWgt}98!
+ example:	PLAA[!w4pXgT}89!
 Path:			<target path>
  example:	/
 
