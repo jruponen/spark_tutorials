@@ -337,3 +337,60 @@ Access courses at: http://bigdatauniversity.com.
 Complete courses "Spark Fundamentals I" and "Spark Fundamentals II".
 Additionally, see other courses directed for Data Scientists (http://bigdatauniversity.com/learn/data-science/).
 
+### Quick instructions to setup Spark standalone on your own machine ###  
+Note: **Spark standalone** is a good option to run Spark for testing and learning purposes. It is not to be used for production purposes.
+
+1. Download Spark
+(http://spark.apache.org/downloads.html)
+
+2. Extract
+Extract to directory of your choice, e.g:  
+```
+./Spark/spark-1.6.1-bin-hadoop2.6
+```
+
+3 Optional: Export JAVA_HOME
+On Mac OS X:
+```
+$ export JAVA_HOME=$(/usr/libexec/java_home) 
+```
+
+4. Start master
+```
+$ cd /Spark/spark-1.6.1-bin-hadoop2.6
+$ ./sbin/start-master.sh
+```
+
+5. Verify Spark master
+In browser, open: (http://localhost:8080)
+
+Copy paste Spark URL address:	spark://localhost:7077
+
+6. Start worker(s)
+```
+$ ./bin/spark-class org.apache.spark.deploy.worker.Worker spark://localhost:7077
+```
+
+7. Verify Spark worker
+In browser, open (or refresh): (http://localhost:8080)
+
+Should now see one worker attached to the master.
+
+8. Try interactive Scala shell
+```
+$ ./bin/spark-shell --master spark://localhost:7077
+```
+or
+```
+$ ./bin/spark-shell --master local[2]
+```
+
+9. Try interactive Python shell
+```
+$ ./bin/pyspark --master spark://localhost:7077
+```
+or
+```
+$ ./bin/pyspark --master local[2]
+```
+
