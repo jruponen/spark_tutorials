@@ -128,6 +128,6 @@ Additional login credentials:
 Project domain name:	<domain_name>
  example:					791473
 ```
-**Hint:** Use "Insert to code" from Data Source panel on your Spark Notebook to find out your Swift object store credentials.
+**Hint:** Use *Insert to code* option from the "Data Source" panel on right of your Spark Notebook to find out your Object Storage credentials.
 
 
