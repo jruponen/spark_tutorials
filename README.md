@@ -340,19 +340,19 @@ Additionally, see other courses directed for Data Scientists (http://bigdatauniv
 ### Quick instructions to setup Spark standalone on your own machine ###  
 Note: **Spark standalone** is a good option to run Spark for testing and learning purposes. It is not to be used for production purposes.
 
-  1. Download Spark
+1. Download Spark
 (http://spark.apache.org/downloads.html)
-  2. Extract
-Extract to directory of your choice, e.g:  
+2. Extract
+Extract to directory of your choice, e.g:
 ```
 ./Spark/spark-1.6.1-bin-hadoop2.6
 ```
-  3. Optional: Export JAVA_HOME
+3. Optional: Export JAVA_HOME
 On Mac OS X:
 ```
 $ export JAVA_HOME=$(/usr/libexec/java_home) 
 ```
-  4. Start Spark Master
+4. Start Spark Master
 ```
 $ cd /Spark/spark-1.6.1-bin-hadoop2.6
 $ ./sbin/start-master.sh
