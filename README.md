@@ -1,9 +1,11 @@
+### NOTE: AFTER SPARK NOTEBOOKS HAVE BEEN REMOVED FROM SPARK IN BLUEMIX AND MOVED TO DSX (http://datascience.ibm.com), THESE INSTRUCTIONS NO LONGER APPLY. YOU CAN STILL CONTINUE LEVERAGE SOME OF THE CONTENT IN THE DSX.
+
 These instructions and some files needed in the tutorials are provided at: https://github.com/jruponen/spark_tutorials.
 
 General Spark tutorials are found at: https://developer.ibm.com/clouddataservices/docs/spark/tutorials-and-samples/
 
 
-##STEP 1: Create your Apache Spark service in Bluemix
+## STEP 1: Create your Apache Spark service in Bluemix
 
 1. Login to Bluemix.net
 
@@ -24,7 +26,7 @@ Notice on the page:
   * Learn (link to Spark service documentation in Bluemix)
   * Discover (link to Learning Center for tutorials, samples etc)
 
-##STEP 2: Set up an Object Storage for your Spark instance
+## STEP 2: Set up an Object Storage for your Spark instance
 
 Object Storage is an OpenStack Swift based repository in bluemix where you can store uploaded data files, analysis notebooks etc.
 
@@ -58,7 +60,7 @@ Object Storage is an OpenStack Swift based repository in bluemix where you can s
 
 Now that you have Apache Spark service up and running, associated with an Object Storage, you may continue to tutorials.
 
-##TUTORIAL 1: Getting Started on Notebooks with Precipitation Analysis
+## TUTORIAL 1: Getting Started on Notebooks with Precipitation Analysis
 
 In this tutorial, you'll learn the very basics of using Spark to analyze data with Jupyter Notebooks, using iPython language.
 ("Scala" is another language option with Spark that you can learn in other tutorials later on).
@@ -107,7 +109,7 @@ What were the answers to extra questions in the end of Notebook:
   * Which country has the most steep positive trend in precipitation?
   * Which were the top 5 countries with most steep positive trends in their precipitation?
 
-##TUTORIAL 2 (optional): Analytics Notebooks and Apache Spark
+## TUTORIAL 2 (optional): Analytics Notebooks and Apache Spark
 
 This tutorial is optional simply because:
   * This is a **big data** exercise involving a large file download (200MB) and then even larger file upload (1.17GB)!
@@ -146,7 +148,7 @@ What was the answer to extra question in the end of Notebook:
   * For the top 10 station with the most snow days, what is the average minimum temperature during recorded snowfall?
 
 
-##TUTORIAL 3: Analyze NYC taxi data
+## TUTORIAL 3: Analyze NYC taxi data
 
 This is relatively simple analysis but it shows you how to get data for analysis directly from an external site via REST API call.  
 **Update on 2016-03-30:** In addition, there are now few optional steps that show you how to export data from your Notebook, to be used somewhere else.
@@ -175,7 +177,7 @@ In the end of the Notebook you were asked what other insight could you derive fr
 Did you find any?
 
 
-##TUTORIAL 4: NY Motor Vehicle Accident Analysis
+## TUTORIAL 4: NY Motor Vehicle Accident Analysis
 
 Here you'll analyze vehicle collisions data from NYPD and learn more about creating insightful visualizations in Notebook.
 Although containing all collision data from 2012 the data set to dowload & upload is still reasonable in size, 149MB.
@@ -194,7 +196,7 @@ Although containing all collision data from 2012 the data set to dowload & uploa
 	Make sure you go through each step.
 
 
-##TUTORIAL 5 (Optional): Data integration
+## TUTORIAL 5 (Optional): Data integration
 
 This tutorial is optional and for your reference only since it does not perform any analysis on data.
 It shows you how you can load data on your Notebook from either Object Storage, Cloudant or dashDB, using either Python or PySpark. Use it as your reference when you have self-collected data into one of these stores and will need to load it on your Notebook.
@@ -216,7 +218,7 @@ To access this sample Notebook, perform the following
 	Make sure you go through each step.
 
 
-##TUTORIAL 6: Set up Node-RED and Cloudant for data collection
+## TUTORIAL 6: Set up Node-RED and Cloudant for data collection
 
 This is a fairly quick setup but extremely valuable to you for collecting and processing data, as you'll learn in later tutorials.
 In short, here you'll set up yourself a Node-RED application for handling data streams and a Cloudant noSQL data store.
@@ -254,7 +256,7 @@ You have now created:
 - SDK for Node.js runtime with Node-RED data stream editor installed
 - Cloudant NoSQL data store
 
-##TUTORIAL 7: Analyze crime data in Cloudant data store
+## TUTORIAL 7: Analyze crime data in Cloudant data store
 
 **Pre-req**: You must have to have completed tutorial 6 in order to proceed with this one.
 
@@ -295,7 +297,7 @@ disturbDf.select("properties").write.format("com.cloudant.spark")\
 .save("write_db_name")
 ```
 
-##TUTORIAL 8: Collect tweets into Cloudant data store
+## TUTORIAL 8: Collect tweets into Cloudant data store
 
 This is fairly simple task to do, see tutorial video here:
 https://developer.ibm.com/clouddataservices/docs/dashdb/get/store-tweets-using-bluemix-node-red-cloudant-and-dashdb/
@@ -320,7 +322,7 @@ After collected some tweets, see what kind of analysis you can perform with them
 To stop collection on Node-RED, just delete the wire to the Cloudant node and re-deploy the flow.
 
 
-##ADDITIONAL TUTORIALS:
+## ADDITIONAL TUTORIALS:
 
 **Load Cloudant Data in Apache Spark using a Scala Notebook**
 https://developer.ibm.com/clouddataservices/docs/spark/tutorials-and-samples/load-and-filter-cloudant-data-with-spark/
